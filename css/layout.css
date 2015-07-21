@@ -407,6 +407,16 @@ ul#nav li.current a { color: #F06000; }
   padding-top: 0px;
 }
 
+#work .thumbnail{
+  position: absolute;
+  left: -24vh ;
+  border-radius: 20%;
+  z-index: 0 ;
+  max-width: 25%;
+  width: auto;
+  vertical-align: center ;
+}
+
 
 /*----------------------------------------------*/
 /*	Skill Bars
