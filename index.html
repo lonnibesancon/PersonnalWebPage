@@ -65,7 +65,7 @@
       <div class="row banner">
          <div class="banner-text">
             <h1 class="responsive-headline">Welcome</h1>
-            <h3><center>I'm a Paris based <span>PhD student</span> in  <span>Human Computer Interactions</center></span> 
+            <h3><center>I'm a Paris based <span>PhD student</span> in <span>Human Computer Interactions</center></span> 
             <br/><br/><br/><center><a class="smoothscroll" href="#about">Start scrolling</a>
             to learn more <a class="smoothscroll" href="#about">about me</center></a>.</h3>
             <hr />
@@ -314,6 +314,17 @@
                </thead>
                <tbody>
                   <tr>
+                     <td><strong>L. Besançon</strong>,P. Issartel, M. Ammi,T. Isenberg</td>
+                     
+                     <td><a href="http://arxiv.org/abs/1603.02642" target="_blank">"Usability Comparison of Mouse, Touch and Tangible Inputs for 3D Data Manipulation"</a>, arXiv:1603.02642 (2016)</td>
+                     
+                     <td class="centeredCell"><a href="https://arxiv.org/pdf/1603.08735v2.pdf"><img src="images/pdf.png" width="20" height="20"></a></td>
+                     
+                     <td class="centeredCell"><a href="Bib/tangible_volume.bib" download target="_blank"><img src="images/Bib.png" width="40" height="20"></a></td>
+                     
+                     <!--<td class="centeredCell"><a href="Videos/video_tangible_volume.mp4" download target="_blank"><img src="images/vlc.png" width="20" height="20"></a></td>-->
+                  </tr>
+                  <tr>
                      <td>P. Issartel, <strong>L. Besançon</strong>, T. Isenberg, M. Ammi</td>
                      
                      <td><a href="http://arxiv.org/abs/1603.02642" target="_blank">"A Tangible Volume for Portable 3D Interaction"</a>, arXiv:1603.02642 (2016)</td>
@@ -324,6 +335,7 @@
                      
                      <td class="centeredCell"><a href="Videos/video_tangible_volume.mp4" download target="_blank"><img src="images/vlc.png" width="20" height="20"></a></td>
                   </tr>
+
                </tbody>
             </table>
 
@@ -491,6 +503,23 @@
                   <div class="item-wrap">
 
                      <a href="#modal-01" title="">
+                        <img class="previewImage" alt="Image Not Available" src="images/portfolio/Hybrid.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+                              <h5>Hybrid Interaction</h5>
+                              <p>Tactile-Tangible Hybrid Interaction for 3D scientific dataset manipulations</p>
+                           </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+               </div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
                         <img class="previewImage" alt="Image Not Available" src="images/portfolio/Cube.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -507,7 +536,7 @@
                <div class="columns portfolio-item">
                   <div class="item-wrap">
 
-                     <a href="#modal-02" title="">
+                     <a href="#modal-03" title="">
                         <img class="previewImage" alt="Image Not Available" src="images/portfolio/3DComp.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -524,7 +553,7 @@
                <div class="columns portfolio-item">
                   <div class="item-wrap">
 
-                     <a href="#modal-03" title="">
+                     <a href="#modal-04" title="">
                         <img class="previewImage" alt="Image Not Available" src="images/portfolio/HapticPong.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -538,10 +567,11 @@
                   </div>
                </div> <!-- item end -->
 
+               <!--
                <div class="columns portfolio-item">
                   <div class="item-wrap">
 
-                     <a href="#modal-04" title="">
+                     <a href="#modal-05" title="">
                         <img class="previewImage" alt="Image Not Available" src="images/portfolio/JLiarDice3.png">
                         <div class="overlay">
                            <div class="portfolio-item-meta">
@@ -578,10 +608,32 @@
          </div> <!-- twelve columns end -->
 
 
-         <!-- Modal Popup
-         --------------------------------------------------------------- -->
+         <!-- Modal Popup -->
 
          <div id="modal-01" class="popup-modal mfp-hide">
+
+            <img class="scale-with-grid" src="images/portfolio/modals/m-Hybrid.png" alt="" />
+
+            <div class="description-box">
+               <h4>Hybrid interaction for 3D scientific dataset manipulations</h4>
+               <p>We present the design and evaluation of an interface that combines tactile and tangible paradigms for 3D visualization. While studies have demonstrated that both tactile and tangible input can be efficient for a subset of 3D manipulation tasks, we reflect here on the possibility to combine the two complementary input types. Based on a field study and follow-up interviews, we present a conceptual framework of the use of these different interaction modalities for visualization both separately and combined---focusing on free exploration as well as precise control. We present a prototypical application of a subset of these combined mappings for fluid dynamics data visualization using a portable, position-aware device which offers both tactile input and tangible sensing. We evaluate our approach with domain experts and report on their qualitative feedback.<br>
+               <span class="categories"><i class="fa fa-tag"></i>Tangible Interaction, Tactile Interaction, Design Space Exploration, Scientific Visualization</span>
+            </div>
+
+            <div class="link-box">
+               <a href="Videos/Hybrid Int.mp4" download target="_blank">Video Demo </a>
+               <a href="" target="_blank">&nbsp;&nbsp; Paper Download</a>
+               <a href="https://github.com/lonnibesancon/FluidAppAndroid/releases" target="_blank">&nbsp;&nbsp; Release</a>
+               <a class="popup-modal-dismiss">Close</a>
+               <!--<video controls="controls">
+    <source src="https://drive.google.com/uc?export=download&id=0B0JMGMGgxp9WMEdWb1hyQUhlOWs" type='video/mp4'/>
+</video>-->
+            </div>
+
+         </div><!-- modal-02 End -->
+
+         
+         <div id="modal-02" class="popup-modal mfp-hide">
 
             <img class="scale-with-grid" src="images/portfolio/modals/m-Cube.png" alt="" />
 
@@ -602,7 +654,7 @@
 
          </div><!-- modal-02 End -->
 
-          <div id="modal-02" class="popup-modal mfp-hide">
+          <div id="modal-03" class="popup-modal mfp-hide">
 
             <img class="scale-with-grid" src="images/portfolio/modals/m-3DComp.png" alt="" />
 
@@ -614,7 +666,7 @@
 
             <div class="link-box">
 
-               <a href="" target="_blank">&nbsp;&nbsp; Paper Download</a>
+               <a href="https://arxiv.org/abs/1603.08735" target="_blank">&nbsp;&nbsp; Paper Download</a>
                <a class="popup-modal-dismiss">Close</a>
                <!--<video controls="controls">
     <source src="https://drive.google.com/uc?export=download&id=0B0JMGMGgxp9WMEdWb1hyQUhlOWs" type='video/mp4'/>
@@ -623,7 +675,7 @@
 
          </div><!-- modal-02 End -->
 
-         <div id="modal-03" class="popup-modal mfp-hide">
+         <div id="modal-04" class="popup-modal mfp-hide">
 
             <img class="scale-with-grid" src="images/portfolio/modals/m-HapticPong.png" alt="" />
 
@@ -642,9 +694,9 @@
 </video>-->
             </div>
 
-         </div><!-- modal-02 End -->
+         </div><!-- modal-02 End 
 
-         <div id="modal-04" class="popup-modal mfp-hide">
+         <div id="modal-05" class="popup-modal mfp-hide">
 
             <img class="scale-with-grid" src="images/portfolio/modals/m-JLiarDice.png" alt="" />
 
@@ -714,7 +766,7 @@
                         <td><a href ="http://intranet.polytech.u-psud.fr/ii/index.php?id=471&modhule=c2i4-1">Algorithms, Complexity, Graph Theory</a></td>
                         <td class="centeredCell">Polytech Paris Sud</td>
                         <td class="centeredCell">Graduate</td>
-                        <td class="centeredCell">Tutorials</td>
+                        <td class="centeredCell">Lectures + Tutorials</td>
                         <td class="centeredCell">20</td>
                         <td class="centeredCell">50</td>
                      </tr>
